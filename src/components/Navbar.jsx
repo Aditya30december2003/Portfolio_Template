@@ -50,6 +50,7 @@ const Navbar = () => {
           <a href='#test' className='cursor-pointer'>Testimonials</a>
           <a href='#contact' className='cursor-pointer'>Contact</a>
           <a href='' className='bg-orange-500 text-[1.3rem] text-white p-1 rounded-sm cursor-pointer'>Download CV</a>
+          <div className='cursor-pointer' onClick={onNav}>{ !mode?<GoSun size={25}/>:<FaMoon size={25}/> }</div>
         </ul>
     </div>
     </>
